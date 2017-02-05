@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Welcome to Firebase Hosting</title>
+    <!-- Thanks for checking out the code! My website is open source at https://github.com/mattblackapps/mattblack 
+
+    Bootstrap 4! -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <style media="screen">
       body {
         font-family: Roboto, Arial, sans-serif;
@@ -59,11 +63,35 @@
   </head>
   <body>
     <div id="message">
-      <h1>Welcome to Firebase Hosting</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
+      <h1>Mattblack.io</h1>
+      <p>Welcome to my spot on the web! I'm a software developer, audio/video producer and musician.</p>
       <ul>
-        <li><a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a></li>
+        <li><a target="_blank" href="https://firebase.google.com/docs/hosting/">Find me on twitter!</a></li>
       </ul>
     </div>
+    <div id="my-tweets">
+      <a class="twitter-timeline" href="https://twitter.com/TwitterDev">Tweets by TwitterDev</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <div id="disqus">
+      <div id="disqus_thread"></div>
+        <script>
+          var disqus_config = function () {
+            //this.page.url = "#";  // Replace PAGE_URL with your page's canonical URL variable
+            //this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+          };
+          (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://mattblackdev.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            ( d.head || d.body ).appendChild(s);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the 
+          <a href="https://disqus.com/?ref_noscript">
+            comments powered by Disqus.
+          </a>
+        </noscript>      
+    </div>
+    <script id="dsq-count-scr" src="https://mattblackdev.disqus.com/count.js" async></script>
   </body>
 </html>

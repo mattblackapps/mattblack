@@ -1,0 +1,22 @@
+{
+  "name": "mattblack",
+  "version": "1.0.0",
+  "description": "matt black's personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "mattblack"
+  },
+  "keywords": [
+    "personal",
+    "static",
+    "website",
+    "bootstrap",
+    "nodejs"
+  ],
+  "author": "Matt Black",
+  "license": "ISC"
+}
